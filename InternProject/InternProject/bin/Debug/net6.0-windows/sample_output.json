@@ -1,0 +1,29 @@
+{
+  "uploadSystem": {
+    "customer": {
+      "name": "Fatih",
+      "ssnNumber": "49813201020"
+    },
+    "invoiceData": {
+      "seri": "ABC",
+      "number": "100000050",
+      "Items": [
+        {
+          "name": "Kulaklık",
+          "quantity": "2",
+          "unitPrice": "400",
+          "amount": "800"
+        },
+        {
+          "name": "Ram",
+          "quantity": "1",
+          "unitPrice": "405",
+          "amount": "405"
+        }
+      ],
+      "totalAmount": "1205 TL",
+      "discount": "20",
+      "amountToPay": "964 TL"
+    }
+  }
+}
