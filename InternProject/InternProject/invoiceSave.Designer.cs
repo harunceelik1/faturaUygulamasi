@@ -211,7 +211,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(510, 342);
+            this.button3.Location = new System.Drawing.Point(529, 348);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(95, 30);
             this.button3.TabIndex = 8;
@@ -281,7 +281,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(511, 241);
+            this.button1.Location = new System.Drawing.Point(511, 238);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 33);
             this.button1.TabIndex = 4;

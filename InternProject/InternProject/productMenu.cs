@@ -45,12 +45,12 @@ namespace InternProject
 
                 if (CheckBoxselect)
                 {
-                    drv.Cells["Total"].Value = Convert.ToDouble(drv.Cells["Fiyat"].Value) * Convert.ToDouble(drv.Cells["Miktar"].Value);    //TOPLAM HESAPLAMASI YAPILIYOR.
+                    drv.Cells["Total"].Value = Convert.ToSingle(drv.Cells["Fiyat"].Value) * Convert.ToSingle(drv.Cells["Miktar"].Value);    //TOPLAM HESAPLAMASI YAPILIYOR.
                     dt.Rows.Add(drv.Cells[1].Value,drv.Cells[2].Value, drv.Cells[3].Value, drv.Cells[4].Value, drv.Cells[5].Value);         // Form2'deki datagridview tablosuna ürünlerin bilgisi aktarılıyor.
 
                     total += Convert.ToDouble(drv.Cells["Total"].Value);
 
-                    invoiceSave.price = total.ToString();
+                    invoiceSave.price = total.ToString("0.##");
                 }
                 invoiceSave.products.DataSource = dt;
             }

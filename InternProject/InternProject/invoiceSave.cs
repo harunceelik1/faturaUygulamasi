@@ -19,18 +19,17 @@ namespace InternProject
         }
         public string text;
         public string text2;
-        public string urunad;
+
 
         public string price;
-        public string urunmiktar;
-
-
+       
         float amount;
         float discount;
 
         public string text3;
         public string text4;
         public float amount2;
+
         Random rnd = new Random();
         Connect con = new Connect();
 
@@ -43,15 +42,16 @@ namespace InternProject
         }
         public void Hesapla()
         {
-            amount = Convert.ToSingle(price);                    // Burada amount değişkenine single ile dönüştürerek urunun fiyatını atıyoruz.
+            amount = Convert.ToSingle(price);                           // Burada amount değişkenine single ile dönüştürerek urunun fiyatını atıyoruz.
             discount = Convert.ToSingle(txtDiscount.Text);              // discount yazılan textboxteki değeri discount değişkenine atıyoruz.
-
+            
+            total2.Text = amount.ToString("0.##") + " TL";
             amount2 = amount;
             
             amount = amount - (amount * discount / 100);            // Fatura Bilgileri ekranında toplam amount ve discountli halinden sonraki amount hesaplanıyor.
 
-            lblDiscount.Text = amount.ToString() + " TL";
-            total2.Text = price.ToString() + " TL";
+            lblDiscount.Text = amount.ToString("0.##") + " TL";
+            
             
 
         }
@@ -145,6 +145,7 @@ namespace InternProject
                         bagla.Close();
                     }
                 }
+                MessageBox.Show("Faturanız Kaydedilmiştir.");
             }
 
         }
