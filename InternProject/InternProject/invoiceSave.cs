@@ -178,5 +178,6 @@ namespace InternProject
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);         //Fatura No text kısmına sadece rakam girişine izin verilir.
         }
 
+
     }
 }

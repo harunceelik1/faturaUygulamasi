@@ -1,29 +1,29 @@
 {
   "uploadSystem": {
     "customer": {
-      "name": "Fatih",
-      "ssnNumber": "49813201020"
+      "name": "Sude",
+      "ssnNumber": "52159877411"
     },
     "invoiceData": {
-      "seri": "ABC",
-      "number": "100000050",
+      "seri": "MNN",
+      "number": "100000001",
       "Items": [
         {
-          "name": "Kulaklık",
-          "quantity": "2",
-          "unitPrice": "400",
-          "amount": "800"
+          "name": "Harddisk",
+          "quantity": "1",
+          "unitPrice": "700",
+          "amount": "700"
         },
         {
-          "name": "Ram",
-          "quantity": "1",
-          "unitPrice": "405",
-          "amount": "405"
+          "name": "Anakart",
+          "quantity": "2",
+          "unitPrice": "1250",
+          "amount": "2500"
         }
       ],
-      "totalAmount": "1205 TL",
-      "discount": "20",
-      "amountToPay": "964 TL"
+      "totalAmount": "3200 TL",
+      "discount": "40",
+      "amountToPay": "1920 TL"
     }
   }
 }

@@ -66,8 +66,7 @@ namespace InternProject
         {
             var connections = "Data source=upload_system.db;Version=3;";
             using (var connection = new SQLiteConnection(connections))
-            {
-                
+            {               
                 for (int i = 0; i < productsTable.SelectedRows.Count; i++)
                 {
                     connection.Open();
